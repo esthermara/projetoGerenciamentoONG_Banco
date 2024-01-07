@@ -9,7 +9,7 @@ CREATE TABLE Usuario (
   competencia varchar(50),
   PRIMARY KEY (idUsuario)
 );
-CREATE TABLE Asssociados (
+CREATE TABLE Associados (
   idAssociados int unsigned NOT NULL auto_increment,
   nome varchar(50),
   endereco varchar (500),
