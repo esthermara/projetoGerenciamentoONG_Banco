@@ -5,7 +5,7 @@ USE gerenciamentoong;
 CREATE TABLE Usuario (
   idUsuario int unsigned NOT NULL auto_increment,
   nome varchar(50),
-  senha varchar(8),
+  senha varchar(15),
   competencia varchar(50),
   PRIMARY KEY (idUsuario)
 );
