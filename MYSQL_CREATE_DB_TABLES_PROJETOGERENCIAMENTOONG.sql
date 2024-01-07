@@ -22,8 +22,8 @@ CREATE TABLE Oficinas (
   idOficinas int unsigned NOT NULL auto_increment,
   nomeOficina varchar (50),
   diaSemana varchar (100),
-  horario datetime ,
-  professsor varchar (50),
+  horario time ,
+  professor varchar (50),
   PRIMARY KEY (idOficinas)
 );
 CREATE TABLE Estoque (
