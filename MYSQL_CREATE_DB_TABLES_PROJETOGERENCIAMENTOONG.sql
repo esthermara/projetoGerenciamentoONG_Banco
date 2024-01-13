@@ -38,9 +38,9 @@ CREATE TABLE Faturamento (
   idFaturamento int unsigned NOT NULL auto_increment,
   descricao varchar (200),
   origem varchar (50),
-  valorEntrada decimal,
-  valorSaida decimal,
-  totalGeral decimal,
+  valorEntrada DECIMAL(10, 2),
+  valorSaida DECIMAL(10, 2),
+  totalGeral DECIMAL(10, 2),
   PRIMARY KEY (idFaturamento)
 );
 
